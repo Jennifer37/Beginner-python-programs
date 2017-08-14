@@ -1,0 +1,130 @@
+n = input('Enter no.of terms: ')//fibonacci series
+i=0
+c=0
+a=0
+b=1
+print "The series is:"
+print a
+print b
+for i in range(n-2):
+  	c=a+b
+  	print(c)
+  	a=b
+  	b=c
+   
+
+_______________________________________________________________________
+ print "1-Rock,2-paper,3-scissors"// game
+p1 = input('Enter your choice: ')
+p2 = input('Enter your choice: ')
+if(p1==1 and p2==2):
+		print "Player2 wins"
+if(p1==1 and p2==3):
+		print "Player1 wins"  
+if(p1==2 and p2==1):
+  	print "Player1 wins"
+if(p1==2 and p2==3):
+  	print "Player2 wins"
+if(p1==3 and p2==2):
+  	print "Player1 wins"
+if(p1==3 and p2==2):
+		print "Player2 wins"
+
+_____________________________________________________________________________
+
+str1 = input("Enter a string:")//program to check for palindrome
+i=0
+for i in range(len(str1)-1):
+	str2[len(str1)-i-1]=str1[i]
+count=0
+for i in range(len(str1)-1):
+	if str2[i]==str1[i]:
+		count=count+1
+if count==len(str1):
+	print ("Palindrome")
+else:
+  print ("Not a palindrome")
+
+_____________________________________________________________________________
+
+str1 = input("Enter a number:")//program to check for number frequency
+i=0,a0=0,a1=0,a2=0,a3=0,a4=0,a5=0,a6=0,a7=0,a8=0,a9=0
+for i in range(len(str1)-1):
+	if(str1[i]==0):
+	a0++
+	if(str1[i]==1):
+	a1++
+	if(str1[i]==2):
+	a2++
+	if(str1[i]==3):
+	a3++
+	if(str1[i]==4):
+	a4++
+	if(str1[i]==5):
+	a5++
+	if(str1[i]==6):
+	a6++
+	if(str1[i]==7):
+	a7++
+	if(str1[i]==8):
+	a8++
+	if(str1[i]==9):
+	a9++
+print a0
+print a1
+print a2
+print a3
+print a4
+print a5
+print a6
+print a7
+print a8
+print a9
+
+______________________________________________________________________________________________
+
+n = input("Enter no.of words:")//program to find largest word in the given set of words
+i=0
+print 'Enter'+n+'Words:'
+for i in range(n-1)
+	var[i] = raw_input("Enter a word: ")
+largestword=""
+largestlen=0
+for i in range(n-1)
+	if largestWord<len(var[i]):
+           largestWord=len(var[i])
+           largestWord=var[i]
+    print "The longest word(s) in the list is %s." % largestWord
+
+
+_______________________________________________________________________________________________
+
+
+m=input("Enter a number:")//program to find largest of 3 numbers   
+n=input("Enter another number:")
+o=input("Enter another number:")
+ifm>n:
+	if m>o:
+		print m+'is largest'
+	elif o>m:
+   		print o+'is largest'
+elif n>m:
+	if n>o:
+		print n+'is largest'
+	elif o>n:
+   		print o+'is largest'
+_________________________________________________________________________________________________
+
+a[]//program 
+j=0
+for i in range(2000,3201)
+	if((i%7==0) and (i%5!=0):
+		a[j]=i
+		j+=1
+k=0
+for k in range(j)
+	print a[k]','
+
+__________________________________________________________________________________________________
+
+
